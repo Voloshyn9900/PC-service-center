@@ -439,7 +439,7 @@ body {
 .hero__content {
   padding: 272px 100px 208px 100px;
   background-color: #7661ca;
-  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(/images/cervis/hero.jpg);
+  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/cervis/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
