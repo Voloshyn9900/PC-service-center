@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>&#128293;Barbershop</title>
+    <title>&#128293;TechCare</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,18 +37,18 @@
           </a>
           <ul class="menu list">
             <li class="menu__item">
-              <a class="menu__link link" href="./about.html">About</a>
+              <a class="menu__link link" href="#about">About</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link link" href="https://www.google.com/"
+              <a class="menu__link link" href="#prices"
                 >Services and prices</a
               >
             </li>
             <li class="menu__item">
-              <a class="menu__link link" href="#barbers">Barbers</a>
+              <a class="menu__link link" href="#comand">Comand</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link link" href="https://www.google.com/"
+              <a class="menu__link link" href="#footer-contacts"
                 >Contacts</a
               >
             </li>
@@ -95,39 +95,27 @@
           </div>
 
           <div class="hero__content">
-            <p class="hero__top-text top-text">A hair salon for men in Kyiv</p>
+            <p class="hero__top-text top-text">The best specialists in Kyiv</p>
             <h1 class="hero__title animate__animated animate__wobble">
-              BarberShop
+              TechCare Solutions
             </h1>
             <p class="hero__bottom-text">
-              We are experts in trendy men’s haircuts. We work quickly,
-              carefully and with style.
+              We are experts in professional PC maintenance. We work efficiently, attentively, and with technical finesse.
             </p>
           </div>
         </div>
       </section>
-      <section class="about section">
+      <section class="about section" id="about">
         <div class="container about__container">
-          <ul class="picture-list list">
-            <li class="picture-list__item">
+          <div class="picture-div">
               <img
-                src="./images/about-img-1.jpeg"
-                alt="haircut"
-                width="270"
-                height="445"
+                src="./images/cervis/center.jpg"
+                alt="center"
+                width="700"
+                height=""
                 class="picture-list__image"
               />
-            </li>
-            <li class="picture-list__item">
-              <img
-                src="./images/about-img-2.jpeg"
-                alt="haircut"
-                width="270"
-                height="445"
-                class="picture-list__image"
-              />
-            </li>
-          </ul>
+          </div>
           <div class="about__content">
             <p class="about__top-text top-text">About</p>
             <h2 class="about__title section-title" data-aos="fade-right">
@@ -145,16 +133,17 @@
               repairs, hardware and software upgrades, program installations and configurations, 
               as well as consultations on optimizing your PC's performance.
             </p>
-            <button type="button" class="about__btn btn btn--dark">
+            <!-- <button type="button" class="about__btn btn btn--dark">
               Online-booking
-            </button>
+            </button> -->
           </div>
         </div>
       </section>
-      <section class="prices section">
+
+      <section class="prices section" id="prices">
         <div class="container">
           <p class="prices-top-text top-text">
-            Spend your time with the best masters
+            Buy cheap get high.
           </p>
           <h2 class="prices-title section-title" data-aos="flip-right">
             Services and prices
@@ -162,43 +151,43 @@
           <div class="prices-wrap">
             <ul class="prices-list list">
               <li class="prices-item">
-                <p class="prices-item-text">Men’s haircut</p>
-                <p class="prices-item-text">from 300 uah.</p>
+                <p class="prices-item-text">PC diagnostics</p>
+                <p class="prices-item-text">from 200 uah.</p>
               </li>
               <li class="prices-item">
-                <p class="prices-item-text">Beard trim</p>
-                <p class="prices-item-text">from 300 uah.</p>
+                <p class="prices-item-text">Operating system update</p>
+                <p class="prices-item-text">from 700 uah.</p>
               </li>
               <li class="prices-item">
-                <p class="prices-item-text">Mustache trim</p>
-                <p class="prices-item-text">from 300 uah.</p>
+                <p class="prices-item-text">Software installation</p>
+                <p class="prices-item-text">from 50 uah.</p>
               </li>
               <li class="prices-item">
-                <p class="prices-item-text">Straight razor shave</p>
-                <p class="prices-item-text">from 300 uah.</p>
+                <p class="prices-item-text">Hard disk repair</p>
+                <p class="prices-item-text">from 350 uah.</p>
               </li>
             </ul>
             <ul class="prices-list list">
               <li class="prices-item">
-                <p class="prices-item-text">Trainee’s haircut</p>
-                <p class="prices-item-text">from 300 uah.</p>
+                <p class="prices-item-text">Data recovery</p>
+                <p class="prices-item-text">from 450 uah.</p>
               </li>
               <li class="prices-item">
-                <p class="prices-item-text">Haircut under the nozzle</p>
-                <p class="prices-item-text">from 300 uah.</p>
+                <p class="prices-item-text">Virus removal</p>
+                <p class="prices-item-text">from 600 uah.</p>
               </li>
               <li class="prices-item">
-                <p class="prices-item-text">Children’s haircut (0-12 y.o.)</p>
-                <p class="prices-item-text">from 300 uah.</p>
+                <p class="prices-item-text">Component selection guidance</p>
+                <p class="prices-item-text">from 250 uah.</p>
               </li>
               <li class="prices-item">
-                <p class="prices-item-text">Camouflage of gray hair</p>
-                <p class="prices-item-text">from 300 uah.</p>
+                <p class="prices-item-text">Quick component replacement</p>
+                <p class="prices-item-text">from 1200 uah.</p>
               </li>
             </ul>
           </div>
 
-          <button class="prices-btn btn" type="button">Online-booking</button>
+          <!-- <button class="prices-btn btn" type="button">Online-booking</button> -->
         </div>
       </section>
       <section class="benefits section">
@@ -234,19 +223,19 @@
         </div>
       </section>
 
-      <section class="barbers section" id="barbers">
+      <section class="comand section" id="comand">
         <div class="container">
           <p class="barbers__top-text top-text">
             For true enjoyers of the atmosphere
           </p>
-          <h2 class="barbers__title section-title">Our barbers</h2>
+          <h2 class="barbers__title section-title">Our IT comand</h2>
           <ul class="cards list">
             <li class="cards__item">
               <div class="cards__top-wrap">
                 <img
                   class="specialists__img"
                   src="./images/cervis/specialist1-1200x750.jpg"
-                  alt="haircut"
+                  alt="error load pfoto"
                   width="370"
                   height="346"
                 />
@@ -258,8 +247,8 @@
               </div>
 
               <div class="cards__item-content">
-                <h3 class="cards__item-title">John Smith</h3>
-                <p class="cards__item-text">Extreme Barber</p>
+                <h3 class="cards__item-title">Ivan Melnyk</h3>
+                <p class="cards__item-text">Technician for electronics repair</p>
                 <ul class="socials">
                   <li class="socials__item">
                     <a class="socials__link" href="">
@@ -294,7 +283,7 @@
                 <img
                   class="specialists__img"
                   src="./images/cervis/specialist2.jpg"
-                  alt="haircut"
+                  alt="error load pfoto"
                   width="370"
                   height="346"
                 />
@@ -306,8 +295,8 @@
               </div>
 
               <div class="cards__item-content">
-                <h3 class="cards__item-title">John Smith</h3>
-                <p class="cards__item-text">Extreme Barber</p>
+                <h3 class="cards__item-title">Sergey Kovalchuk</h3>
+                <p class="cards__item-text">Network administrator</p>
                 <ul class="socials">
                   <li class="socials__item">
                     <a class="socials__link" href="">
@@ -342,7 +331,7 @@
                 <img
                   class="specialists__img"
                   src="./images/cervis/specialist3.jpg"
-                  alt="haircut"
+                  alt="error load pfoto"
                   width="370"
                   height="346"
                 />
@@ -354,8 +343,8 @@
               </div>
 
               <div class="cards__item-content">
-                <h3 class="cards__item-title">John Smith</h3>
-                <p class="cards__item-text">Extreme Barber</p>
+                <h3 class="cards__item-title">Maxim Vasilyuk</h3>
+                <p class="cards__item-text">Computer Component Specialist</p>
                 <ul class="socials">
                   <li class="socials__item">
                     <a class="socials__link" href="">
@@ -391,14 +380,14 @@
       <section class="gallery section">
         <div class="container">
           <p class="gallery-top-text top-text">
-            In Latin, "barba" means "beard"
+            Look at our robots. </br> If you like it then come.
           </p>
           <h2 class="visually-hidden">Gallary</h2>
           <ul class="gallery-list list">
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-1.jpeg"
-                alt="haircut"
+                alt="error load pfoto"
                 width="270"
                 height="360"
               />
@@ -406,7 +395,7 @@
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-2.jpeg"
-                alt="haircut"
+                alt="error load pfoto"
                 width="270"
                 height="360"
               />
@@ -414,7 +403,7 @@
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-3.jpeg"
-                alt="haircut"
+                alt="error load pfoto"
                 width="270"
                 height="360"
               />
@@ -422,7 +411,7 @@
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-4.jpeg"
-                alt="haircut"
+                alt="error load pfoto"
                 width="270"
                 height="360"
               />
@@ -430,7 +419,7 @@
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-1.jpeg"
-                alt="haircut"
+                alt="error load pfoto"
                 width="270"
                 height="360"
               />
@@ -438,7 +427,7 @@
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-2.jpeg"
-                alt="haircut"
+                alt="error load pfoto"
                 width="270"
                 height="360"
               />
@@ -446,7 +435,7 @@
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-3.jpeg"
-                alt="haircut"
+                alt="error load pfoto"
                 width="270"
                 height="360"
               />
@@ -454,7 +443,7 @@
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-4.jpeg"
-                alt="haircut"
+                alt="error load pfoto"
                 width="270"
                 height="360"
               />
@@ -463,7 +452,7 @@
         </div>
       </section>
       <div class="contact-wrap">
-        <div class="container contact-container">
+        <div class="container contact-container" id="footer-contacts">
           <section class="online section">
             <h2 class="online-title section-title">Online-booking</h2>
 
@@ -531,27 +520,31 @@
       </div>
     </main>
     <footer class="footer">
-      <p class="footer-copy">&#169;Copyright 2020</p>
-      <ul class="footer-list list">
-        <li class="footer-item">
-          <a
-            class="footer-link link"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            >Instagram</a
-          >
-        </li>
-        <li class="footer-item">
-          <a
-            class="footer-link link"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            >Youtube</a
-          >
-        </li>
-      </ul>
+      <div class="container">
+        <div class="footer-div">
+          <p class="footer-copy">&#169;Patsula Maksym 2023</p>
+          <ul class="footer-list list">
+            <li class="footer-item">
+              <a
+                class="footer-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Instagram</a
+              >
+            </li>
+            <li class="footer-item">
+              <a
+                class="footer-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
