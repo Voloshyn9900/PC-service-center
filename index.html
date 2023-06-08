@@ -23,6 +23,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script 
+    src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -377,13 +379,16 @@
           </ul>
         </div>
       </section>
-      <section class="gallery section">
+
+      <section class="section">
         <div class="container">
           <p class="gallery-top-text top-text">
             Look at our robots. </br> If you like it then come.
           </p>
           <h2 class="visually-hidden">Gallary</h2>
-          <ul class="gallery-list list">
+          <ul class="gallery"></ul>
+          
+          <!-- <ul class="gallery-list list">
             <li class="gallery-item">
               <img
                 src="./images/gallery-img-1.jpeg"
@@ -448,7 +453,7 @@
                 height="360"
               />
             </li>
-          </ul>
+          </ul> -->
         </div>
       </section>
       <div class="contact-wrap">
@@ -522,7 +527,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-div">
-          <p class="footer-copy">&#169;Patsula Maksym 2023</p>
+          <p class="footer-copy">&#169; 2023</p>
           <ul class="footer-list list">
             <li class="footer-item">
               <a
@@ -648,6 +653,13 @@
         </form>
       </div>
     </div>
+
+
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js
+    "></script>
+    <script src="js/01-gallery.js" type="module"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
